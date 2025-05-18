@@ -3,7 +3,7 @@ import random
 import streamlit as st
 
 # Load fortunes
-fortunes = pd.read_csv(r"C:\Users\Yap Hui Qing\Documents\Data Learning\Projects\Fortune_cookies.csv")
+fortunes = pd.read_csv("Fortune_cookies.csv")
 
 # Add layout and title
 st.set_page_config(page_title="Fortune Cookie & Lucky Number Generator",
